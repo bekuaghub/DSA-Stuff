@@ -47,13 +47,7 @@ void LevelOrderTraversal(Node * root)
 // Driver program
 int main()
 {
-    /*   Let us create below tree
-    *              10
-    *        /   /    \   \
-    *        2  34    56   100
-    *       / \         |   /  | \
-    *      77  88       1   7  8  9
-    */
+
     Node *root = newNode(10);
     (root->child).push_back(newNode(2));
     (root->child).push_back(newNode(34));
